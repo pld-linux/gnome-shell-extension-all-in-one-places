@@ -11,10 +11,6 @@ License:	Unknown
 Source0:	%{extname}-%{version}.tar.xz
 # Source0-md5:	f68f81a93ddc2de4627c646e45a12698
 URL:		http://markbokil.com/downloads/extensions/
-BuildRequires:	gnome-common
-BuildRequires:	intltool
-BuildRequires:	gnome-desktop-devel
-BuildRequires:	libgtop-devel
 Requires:	gnome-shell >= 3.4.0
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
