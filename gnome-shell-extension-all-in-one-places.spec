@@ -10,7 +10,7 @@ License:	Unknown
 # $ git archive --format=tar --prefix=%{extname}-%{version}/ master | xz > ../../../../%{extname}-%{version}.tar.xz
 Source0:	%{extname}-%{version}.tar.xz
 # Source0-md5:	f68f81a93ddc2de4627c646e45a12698
-URL:		http://markbokil.com/downloads/extensions/
+URL:		http://jferrao.github.com/gtk/
 Requires:	gnome-shell >= 3.4.0
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
